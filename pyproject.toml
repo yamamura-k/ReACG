@@ -16,6 +16,8 @@ easydict = "^1.10"
 robustbench = {git = "https://github.com/RobustBench/robustbench.git"}
 torch = {url = "https://download.pytorch.org/whl/cu118/torch-2.0.1%2Bcu118-cp311-cp311-linux_x86_64.whl"}
 torchvision = {url = "https://download.pytorch.org/whl/cu118/torchvision-0.15.2%2Bcu118-cp311-cp311-linux_x86_64.whl"}
+urllib3 = "^2.6.3"
+setuptools = "^80.9.0"
 
 [tool.poetry.group.dev.dependencies]
 matplotlib = "^3.7.1"
